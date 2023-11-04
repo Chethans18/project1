@@ -51,19 +51,30 @@ a:hover {
 /* main */
 main {
     padding: 20px;
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
 }
 
 section {
-    background-color: #f8f8f8;
+    width: 40%;
+    border: 2px solid white;
     padding: 20px;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
+    margin: 20px;
+
+}
+
+h1 {
+    margin: 20px;
 }
 
 /*Footer */
 footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #03071e;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+    margin: 10px auto;
+    color: white;
 }
