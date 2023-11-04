@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #03071e;
+    color: white;
+    /* background-image: url(./img/background.jpg);
+    background-size: cover;
+    background-position: center;*/
+}
+
+.header {
+    width: 75%;
+    display: flex;
+    margin: 10px auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+    margin: 20px auto;
+
+}
+
+.link {
+    margin: 40px;
+}
+
+nav ul {
+    gap: 15px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: #e01a4f;
+}

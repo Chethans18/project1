@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <title>Contact Me</title>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="header">
+
+            <nav>
+                <h2>𝒞𝐻𝐸𝒯𝐻𝒜𝒩</h2>
+                <div class="link">
+                    <ul>
+                        <li><a href="#about">Home</a></li>
+                        <li><a href="http://127.0.0.1:5500/web2/Menu.html">Contact</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="http://127.0.0.1:5500/web2/skills.html">Skills</a></li>
+                        <li><a href="http://127.0.0.1:5500/web2/achive.html">Achivements</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+    <h1>Contact Details</h1>
+    <hr>
+    <form action="https://httpbin.org/get" method="get">
+        <h2> Name</h2>
+        <label for="First name">Enter your first name :</label> <br>
+        <input type="text" id="First name"><br>
+        <label for="Last name">Enter your last name</label><br>
+        <input type="text" id="Last name">
+
+        <h2>Adress </h2>
+        <label for="street"> Street:</label><br>
+        <input type="text" id="street" size="50"><br>
+        <label for="streetline"> strret line:</label><br>
+        <input type="text" id="streetline" size="50"> <br>
+        <label for="city"> city:</label><br>
+        <input type="text" id="city"><br>
+        <label for="st"> state</label><br>
+        <input type="text" id="st"><br>
+
+        <label for="pincode">pin code</label><br>
+        <input type="number" id="pincode" min="0" max="1000000">
+        <label for="country">country:</label>
+        <select id="country">
+            <option value="INDIAN">India</option>
+            <option value="SRi lanka"> Sri lanka</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="united kingdom">United kingdom</option>
+        </select>
+        <h2> your Contact</h2>
+        <label for="phone">phone:</label>
+        <input type="tel" id="phone">
+        <label for="email">Email:</label>
+        <input type="email">
+        <h2>Personal Details</h2>
+        <input type="radio" id="male" name="Gender">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="Gender">
+        <label for="female">female</label><br>
+        <input type="radio" id="others" name="Gender">
+        <label for="others">others</label><br>
+        <br>
+
+        <input type="submit">
+    </form>
+    </form>
+</body>
+
+</html>
