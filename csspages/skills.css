@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -45,4 +46,88 @@ nav ul li a {
 
 a:hover {
     color: #e01a4f;
+}
+
+/* main*/
+
+main {
+    background-color: #ced4da;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    padding: 5px 10px;
+}
+
+main div {
+    margin: 10px 0;
+}
+
+.main {
+    width: 75%;
+    margin: 10px auto;
+}
+
+.container {
+    width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(37, 31, 31);
+
+}
+
+.skill {
+    text-align: right;
+    padding: 10px 0;
+    color: #14213d;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.html {
+    width: 80%;
+    background-color: white;
+}
+
+.css {
+    width: 50%;
+    background-color: white;
+}
+
+.js {
+    width: 30%;
+    background-color: white;
+}
+
+.c {
+    width: 85%;
+    background-color: white;
+}
+
+.cplus {
+    width: 60%;
+    background-color: white;
+}
+
+.python {
+    width: 65%;
+    background-color: white;
+}
+
+.java {
+    width: 50%;
+    background-color: white;
+}
+
+footer {
+    background-color: #03071e;
+    text-align: center;
+    padding: 20px;
+    margin: 10px auto;
+    color: white;
 }

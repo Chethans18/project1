@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -45,4 +46,48 @@ nav ul li a {
 
 a:hover {
     color: #e01a4f;
+}
+
+.form {
+    width: 70%;
+    margin: 20px auto;
+
+}
+
+form {
+    background-color: #dee2e6;
+    display: block;
+}
+
+h2 {
+    margin: 10px;
+}
+
+label {
+    font-weight: bold;
+    font-size: large;
+
+}
+
+input {
+    font-weight: bolder;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+select {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+footer {
+    background-color: #03071e;
+    text-align: center;
+    padding: 20px;
+    margin: 10px auto;
+    color: white;
 }

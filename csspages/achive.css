@@ -46,3 +46,11 @@ nav ul li a {
 a:hover {
     color: #e01a4f;
 }
+
+footer {
+    background-color: #03071e;
+    text-align: center;
+    padding: 20px;
+    margin: 10px auto;
+    color: white;
+}
